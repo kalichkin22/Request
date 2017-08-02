@@ -1,5 +1,6 @@
 $(function () {
     $('.request').on('click', function () {
+        $('.response').val('');
         var loading = $('<div id="preloader"><div id="preloader-inner"></div></div>');
         $('body').append(loading);
 
