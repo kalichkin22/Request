@@ -29,12 +29,12 @@
     position: relative;
     left: 50%;
     top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
+    width: 135px;
+    height: 135px;
+    margin: -75px 0 0 0;
     border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #3498db;
+    border: 4px solid transparent;
+    border-top-color: #2f39db;
     animation: spin 2s linear infinite
 }
 
@@ -46,7 +46,7 @@
     right: 5px;
     bottom: 5px;
     border-radius: 50%;
-    border: 3px solid transparent;
+    border: 4px solid transparent;
     border-top-color: #e74c3c;
     animation: spin 3s linear infinite
 }
@@ -59,8 +59,8 @@
     right: 15px;
     bottom: 15px;
     border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #f9c922;
+    border: 4px solid transparent;
+    border-top-color: #f9eb1a;
     animation: spin 1.5s linear infinite
 }
 

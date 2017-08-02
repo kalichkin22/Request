@@ -5,8 +5,9 @@ $(function () {
         $('body').append(loading);
 
         $(window).preloader({
+            selector: '#preloader',
             fadeDuration: 0,
-            delay: 3000
+            delay: 3300
         });
         $.get('https://restcountries.eu/rest/v2/currency/usd')
             .done(function (countries) {
