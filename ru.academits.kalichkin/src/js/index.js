@@ -14,7 +14,7 @@ $(function () {
                     return country.region !== 'Africa' && country.region !== 'Asia';
                 }).toArray().length;
                 setTimeout(function () {
-                    $('.response').val(countCountry)
+                    $('.response').val(countCountry + ' ' + "стран")
                 }, 3000);
             });
     });
